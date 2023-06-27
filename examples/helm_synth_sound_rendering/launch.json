@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: DawDreamer Helm Test",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "args": [
+          "--plugin","/Library/Audio/Plug-Ins/Components/helm.component",
+          "--preset-dir","/Users/malek8/Library/Audio/Presets/Helm/Factory Presets/Pad"
+        ],
+        "console": "integratedTerminal",
+        "justMyCode": false
+      },
+      // Other configurations...
+    ]
+  }
